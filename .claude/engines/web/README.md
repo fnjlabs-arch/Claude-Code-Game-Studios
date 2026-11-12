@@ -5,7 +5,7 @@ What `/setup-engine web` copies into a new web project (`scaffold/`, through
 Vite, Vitest and Playwright, at the versions `docs/engine-reference/web/VERSION.md`
 pins. Every file goes to the same path in the project; none is copied over a file
 that is there. The two test files are stored here with `.tmpl` after their names,
-which the copy drops: a project that already has Jest or Vitest and adds Claude Code Game Studios would
+which the copy drops: a project that already has Jest or Vitest and adds SadSha Game Studio would
 otherwise run them as its own tests.
 
 | File | What it is for |
@@ -19,7 +19,7 @@ otherwise run them as its own tests.
 | `tests/unit/rules.test.ts` | Vitest: the rules |
 | `tests/integration/boot.spec.ts` | Playwright: the `@boot` test and a same-seed scripted run, on the single-file build opened from disk |
 | `package.json` | The pinned versions and the scripts below; `engines` names the Node range |
-| `package-lock.json` | The exact tree Claude Code Game Studios tested, for every platform; `npm ci` installs it |
+| `package-lock.json` | The exact tree SadSha Game Studio tested, for every platform; `npm ci` installs it |
 | `vite.config.ts` | `base: './'`, no public folder, and `--mode single` for the single-file build |
 | `tsconfig.json` | Strict TypeScript over `src/`, `allowJs`; `tsc --noEmit` is the type check |
 | `playwright.config.ts` | `tests/integration/`, the browser `page-shot.sh --which` prints, software WebGL |

@@ -1236,7 +1236,7 @@ closing, or produces a warning and lets work continue — per test type
 > - Godot: gdunit4 coverage report (markdown export)
 > - Unity: Unity Test Framework coverage (xml export)
 > - Unreal: gcov-style coverage from clang flags
-> Claude Code Game Studios does not unify these — gate-check reads the engine-appropriate report.
+> SadSha Game Studio does not unify these — gate-check reads the engine-appropriate report.
 
 ---
 
@@ -1290,7 +1290,7 @@ closing, or produces a warning and lets work continue — per test type
 
 **Priority chain:** `team.size` in `project.local.yaml` → `project.yaml` → the `modes.rigor` expansion (`full` → `studio`, else `individual`) → no terminal default. Locally overridable — it is a personal-experience knob, not an on-disk artifact.
 
-> **`individual` at `minimal`/`standard`, `studio` at `full`.** Claude Code Game Studios' audience is
+> **`individual` at `minimal`/`standard`, `studio` at `full`.** SadSha Game Studio' audience is
 > overwhelmingly solo indie developers, so the two lighter rigor tiers resolve
 > `team.size` to `individual` — a `minimal` (default) or `standard` project gets one active agent
 > per role, not 15 (directors and leads included). Only `rigor: full` opts into the
@@ -1482,7 +1482,7 @@ must tell them apart)
 
 **Priority chain:** `accessibility.target` in `project.yaml` → hardcoded default of `none`
 
-> **Default is `none`, not `standard`.** Most Claude Code Game Studios users are solo devs and jam-game
+> **Default is `none`, not `standard`.** Most SadSha Game Studio users are solo devs and jam-game
 > makers — defaulting to `standard` would auto-spawn the accessibility specialist
 > for projects where it's overhead. `/start` does not ask about it; you set it with
 > `/project-settings`.
@@ -1702,7 +1702,7 @@ reference game's name or art would ship with a selling goal); `cut` (`sell`, `ea
 
 | Value | Meaning | What's deactivated |
 |-------|---------|-------------------|
-| `game` | Default. Full Claude Code Game Studios framework applies. | Nothing |
+| `game` | Default. Full SadSha Game Studio framework applies. | Nothing |
 | `tool` | Developer tool, not a game | Skip art bible, narrative, level design, playtesting |
 | `engine` | Custom engine or library underneath games | Skip game-specific concerns entirely (narrative, art, playtest) |
 | `mod` | Mod for an existing game | Skip engine setup; assume parent engine; reduce architecture scope |
@@ -1826,7 +1826,7 @@ implementation, review, and architecture validation
 
 **Priority chain:** `commands.*` in `project.yaml` → engine-typical default → no command available
 
-> **Why explicit:** Without this block, Claude Code Game Studios has to guess engine-typical conventions
+> **Why explicit:** Without this block, SadSha Game Studio has to guess engine-typical conventions
 > for invoking the project. Better to be explicit per-project — covers cases where
 > projects customize their build (e.g., a Godot project using gdunit4 for tests but
 > a custom export script for builds).
@@ -2290,8 +2290,8 @@ for you only)
 ### How it checks
 
 - At most once a day, a background job asks GitHub for the latest release
-  (`api.github.com/repos/Donchitos/Claude-Code-Game-Studios/releases/latest`)
-  and stores the answer in `~/.cache/claude-code-game-studios/latest-release`
+  (`api.github.com/repos/fnjlabs-arch/Claude-Code-Game-Studios/releases/latest`)
+  and stores the answer in `~/.cache/sadsha-game-studio/latest-release`
   (under `$XDG_CACHE_HOME` when that is set). The file is per user and outside
   every project, so `git status` stays clean and one check covers every project
   on the machine.
@@ -2311,30 +2311,30 @@ for you only)
 
 **Controls:** Which version of the project.yaml schema this file conforms to
 **Values:** integer
-**Default:** `1` (for v1.1 of Claude Code Game Studios)
+**Default:** `1` (for v1.1 of SadSha Game Studio)
 **Set by:** `/start`, `/adopt`
 **Read by:** All skills and hooks that parse project.yaml (for migration safety)
 
-> Lets future Claude Code Game Studios versions detect and migrate old project.yaml files. The
+> Lets future SadSha Game Studio versions detect and migrate old project.yaml files. The
 > migration logic compares `schema_version` in the file against the current
-> Claude Code Game Studios' expected version. If newer, warn. If older, run migrations.
+> SadSha Game Studio' expected version. If newer, warn. If older, run migrations.
 
 ---
 
 ### Migration behavior
 
-| project.yaml schema_version | Current Claude Code Game Studios expects | Behavior |
+| project.yaml schema_version | Current SadSha Game Studio expects | Behavior |
 |----------------------------|---------------------|----------|
 | Matches expected | — | Normal operation |
 | Lower than expected | — | `/adopt` warns and offers migration; skills run with deprecation warnings |
-| Higher than expected | — | All skills warn: "This project.yaml was created by a newer Claude Code Game Studios version. Some settings may be ignored." |
+| Higher than expected | — | All skills warn: "This project.yaml was created by a newer SadSha Game Studio version. Some settings may be ignored." |
 | Missing | — | Treated as legacy (pre-v1.1); migration prompted on next `/adopt` |
 
 ---
 
 ## framework
 
-**Controls:** Tracks which Claude Code Game Studios version created or last touched this project
+**Controls:** Tracks which SadSha Game Studio version created or last touched this project
 **Values:** `framework.version` (semver string) + `framework.last_upgraded` (ISO date)
 **Default:** stamped in the template's `project.yaml` at each release
 **Set by:** the template; `/start` (through `set-stage.sh`), `/setup-engine` and `/gate-check` write the block into a `project.yaml` they create, and `migrate-v1-config.sh` (which `/adopt` runs) writes `framework.version` into the one it builds
@@ -2353,7 +2353,7 @@ framework:
 
 | Field | Purpose |
 |-------|---------|
-| `version` | The Claude Code Game Studios version that created the project (or was last updated to — see `UPGRADING.md`). |
+| `version` | The SadSha Game Studio version that created the project (or was last updated to — see `UPGRADING.md`). |
 | `last_upgraded` | ISO date of the most recent template update. |
 
 ---
@@ -2368,7 +2368,7 @@ version the project came from; `UPGRADING.md` is the upgrade path.
 
 ## Migration from v1.0 → v1.1
 
-When a v1.0 Claude Code Game Studios project upgrades to v1.1, migration tooling (run via `/adopt`)
+When a v1.0 SadSha Game Studio project upgrades to v1.1, migration tooling (run via `/adopt`)
 converts legacy files to `project.yaml`. This section specifies the intended
 behavior.
 

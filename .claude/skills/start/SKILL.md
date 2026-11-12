@@ -57,7 +57,7 @@ the user's answer in Phase 2.
 | `concept` | `design/gdd/game-concept.md` or `design/game-brief.md` exists |
 | `gdd_files`, `adr` | Design documents and architecture decisions on disk (they set the stage in Phase 4) |
 | `prototype`, `sprint`, `milestone`, `story` | Other existing work |
-| `origin_url` | Contains `donchitos/claude-code-game-studios`, matched case-insensitively: the clone still points at the template repo, so a push or pull request would go there. A fork under another owner is the user's own |
+| `origin_url` | Contains `fnjlabs-arch/claude-code-game-studios`, matched case-insensitively: the clone still points at the template repo, so a push or pull request would go there. A fork under another owner is the user's own |
 | `stage` | The stage already recorded, if any |
 
 Ignore `phase_inferred`: it guesses from file counts, and a project with code but no design
@@ -297,7 +297,7 @@ Present `minimal` as the documented floor, not a lesser mode, and name its trade
 design problems show up in code.
 
 If `origin_url` pointed at the template repo, add: "Your clone's `origin` still points at the
-Claude Code Game Studios template repo, so a push or pull request would go there. When you're ready, run
+SadSha Game Studio template repo, so a push or pull request would go there. When you're ready, run
 `git remote rename origin template`, then `git remote add origin <your repo URL>`. `UPGRADING.md`
 pulls updates from `template`; skip its own `git remote add template` step, since that remote now
 exists." Suggest it; do not run it.

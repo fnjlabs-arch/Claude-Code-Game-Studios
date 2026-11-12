@@ -3,7 +3,7 @@
 > Part of `/prototype`. `SKILL.md` names when to read this file; the settings it
 > resolved and the rules under its later headings still apply here.
 
-A good brief built at high effort makes the deepest games; the same brief at medium makes thinner ones. The build follows the brief and the rules below, nothing else from Claude Code Game Studios: the genre sheet has done its work in the brief.
+A good brief built at high effort makes the deepest games; the same brief at medium makes thinner ones. The build follows the brief and the rules below, nothing else from SadSha Game Studio: the genre sheet has done its work in the brief.
 
 **In this file:** 1 Who builds · 2 The rules · 3 Build it · 4 Day-one screens · 5 The small
 check · 6 The report

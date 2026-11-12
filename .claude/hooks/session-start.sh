@@ -52,7 +52,7 @@ fi
 # again with source `compact`, and PostCompact output never reaches the
 # conversation, so a checkpoint seen after /compact came from this script.
 
-echo "=== Claude Code Game Studios — Session Context ==="
+echo "=== SadSha Game Studio — Session Context ==="
 
 # Current branch
 BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)

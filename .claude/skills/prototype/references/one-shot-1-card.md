@@ -212,7 +212,7 @@ Writes: design/game-brief.md, prototypes/<name>/
   and high makes the deepest game. Before writing the line, run `printenv
   CLAUDE_CODE_EFFORT_LEVEL` in a shell (no output means it is unset). A value printed fixes this
   session's effort and every agent's, and the line reads `Effort: set by CLAUDE_CODE_EFFORT_LEVEL
-  outside Claude Code Game Studios (change it there for another)`.
+  outside SadSha Game Studio (change it there for another)`.
 - **No price or time.** The brief names no cost and no minutes, and nothing before Build it
   estimates them; asked, say it depends on the game's size and the effort.
 - **A lower effort only when the person names one** ("build it at medium"); xhigh too, and

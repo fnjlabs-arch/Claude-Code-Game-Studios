@@ -182,7 +182,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo `# <#` >/dev/null; bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.sh\"; exit $? #> ; echo 'Claude Code Game Studios hooks are off: Claude Code found no Git Bash, so the checks on reads, writes and commits are skipped this session. Install Git for Windows (https://git-scm.com/download/win) and restart Claude Code. See .claude/docs/setup-requirements.md.'; exit 0",
+            "command": "echo `# <#` >/dev/null; bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/session-start.sh\"; exit $? #> ; echo 'SadSha Game Studio hooks are off: Claude Code found no Git Bash, so the checks on reads, writes and commits are skipped this session. Install Git for Windows (https://git-scm.com/download/win) and restart Claude Code. See .claude/docs/setup-requirements.md.'; exit 0",
             "timeout": 20
           },
           {

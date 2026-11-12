@@ -1,6 +1,6 @@
 #!/bin/bash
 # Hook helper: update-check.sh
-# Purpose: one line at session start when a newer Claude Code Game Studios
+# Purpose: one line at session start when a newer SadSha Game Studio
 # release is out. Sourced by session-start.sh; run directly as
 # `bash update-check.sh refresh` or `notice` (to see the line by hand).
 #
@@ -30,7 +30,7 @@
 # with the rest of .claude/hooks/ on every upgrade, so its number is the
 # framework actually installed.
 UPDATE_CHECK_VERSION="1.3.0"
-UPDATE_CHECK_REPO="Donchitos/Claude-Code-Game-Studios"
+UPDATE_CHECK_REPO="fnjlabs-arch/Claude-Code-Game-Studios"
 
 # This file's absolute path, taken before anything changes directory, so the
 # background refresh can always find it. Builtins only: this runs every session.
@@ -42,7 +42,7 @@ esac
 # Per user, outside every project: git status stays clean, and one check a day
 # covers every project on the machine.
 _update_check_cache() {
-  printf '%s' "${XDG_CACHE_HOME:-$HOME/.cache}/claude-code-game-studios/latest-release"
+  printf '%s' "${XDG_CACHE_HOME:-$HOME/.cache}/sadsha-game-studio/latest-release"
 }
 
 _update_check_now() {
@@ -117,7 +117,7 @@ update_check_notice() {
   fi
 
   if [ -n "$latest" ] && _update_check_newer "$latest" "$UPDATE_CHECK_VERSION"; then
-    echo "Update: Claude Code Game Studios $latest is out (this project has $UPDATE_CHECK_VERSION). What changed and how to upgrade: https://github.com/$UPDATE_CHECK_REPO/releases/latest — to stop this notice: /project-settings --local updates.check=false"
+    echo "Update: SadSha Game Studio $latest is out (this project has $UPDATE_CHECK_VERSION). What changed and how to upgrade: https://github.com/$UPDATE_CHECK_REPO/releases/latest — to stop this notice: /project-settings --local updates.check=false"
   fi
   return 0
 }

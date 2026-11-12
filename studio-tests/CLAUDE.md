@@ -1,6 +1,6 @@
 # Studio Tests — Claude Instructions
 
-This folder is the quality assurance layer for the Claude Code Game Studios skill/agent
+This folder is the quality assurance layer for the SadSha Game Studio skill/agent
 framework. It is self-contained and separate from any game project.
 
 ## Key files
@@ -127,7 +127,7 @@ correct the spec toward the right behavior, not toward what the skill currently 
 
 ## This folder is deletable
 
-Nothing in `.claude/` imports from here, and every other Claude Code Game Studios skill and agent works
+Nothing in `.claude/` imports from here, and every other SadSha Game Studio skill and agent works
 without it — but `/skill-test` and `/skill-improve` read it by path. Without it,
 `/skill-test static` still works, `/skill-test spec` and `/skill-test category`
 stop working, `/skill-test audit` reports that no catalog exists, and

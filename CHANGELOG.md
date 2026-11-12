@@ -1,6 +1,6 @@
 # Changelog
 
-What's new in Claude Code Game Studios, written for the people using it.
+What's new in SadSha Game Studio, written for the people using it.
 
 See [UPGRADING.md](UPGRADING.md) for step-by-step upgrade instructions, and
 [docs/migration-guide-v1.1.md](docs/migration-guide-v1.1.md) if you have an
@@ -20,7 +20,7 @@ A minor release. [UPGRADING.md](UPGRADING.md#v120--v130) lists the new
 folders, the `settings.json` changes and the three renamed skill specs.
 
 **What is shown, and what is not yet.** The first build is the tested part: in
-a blind comparison the brief written from Claude Code Game Studios' questions was picked over a
+a blind comparison the brief written from SadSha Game Studio' questions was picked over a
 hand-written brief for all three game ideas tried, and all six games built from
 the two kinds of brief were ones the tester would build on. Growing was shown
 on one game, a one-shot grown through six stories into a game the tester would
@@ -1377,7 +1377,7 @@ Code 2.1.281 to 2.1.284, on Windows, Linux (bash 5 and 3.2) and macOS. **If you 
 
 - **Skills no longer abort before they start.** In 1.1.0, every skill that reads
   your config began with a shell command Claude Code refuses to run unless it is
-  explicitly approved. In the permission mode Claude Code Game Studios ships with (`default`), 66 of
+  explicitly approved. In the permission mode SadSha Game Studio ships with (`default`), 66 of
   the 74 skills stopped before doing anything, from any subdirectory of your
   project, and whenever Claude invoked a skill on its own — in auto mode too.
   Each skill now runs the config lookup as one plain command and pre-approves
@@ -1406,7 +1406,7 @@ studio production no longer have to carry the same overhead.
 
 ### Added
 
-- **Sessions start in ask-before-write mode.** Claude Code Game Studios sets Claude Code's
+- **Sessions start in ask-before-write mode.** SadSha Game Studio sets Claude Code's
   permission mode to `default` in the project settings, so a terminal session
   started at the project root asks before writing, even if your own Claude Code
   config runs in an auto-accept mode. It sets the starting mode only: resuming a
@@ -1444,7 +1444,7 @@ studio production no longer have to carry the same overhead.
   the `project.godot` the engine needs to open what those steps produce — until
   it did, the path delivered real source files with no project to load them, and
   the claim above was not true. **Unity and Unreal projects must still be created
-  in their own editor first**; Claude Code Game Studios will not fabricate one, because it cannot
+  in their own editor first**; SadSha Game Studio will not fabricate one, because it cannot
   source what those files should contain.
 
 - **`modes.review_mode`** — how many director agents review your work.
@@ -1482,7 +1482,7 @@ studio production no longer have to carry the same overhead.
   at session start if you have old config files and no `project.yaml`.
 
 - **Recommendations for how much process your project needs.** Describe the
-  game you're making and Claude Code Game Studios suggests a level, instead of asking you to guess
+  game you're making and SadSha Game Studio suggests a level, instead of asking you to guess
   what "standard" means for a weekend jam versus a two-year production.
 
 ### Changed

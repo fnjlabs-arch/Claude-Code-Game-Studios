@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Claude Code Game Studios</h1>
+  <h1 align="center">SadSha Game Studio</h1>
   <p align="center">
     Describe a game. Claude Code asks a few questions, writes a one-page brief,
     and builds a playable browser game from it.
@@ -11,8 +11,6 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
   <a href="https://code.claude.com/docs"><img src="https://img.shields.io/badge/built%20for-Claude%20Code-f5f5f5?logo=anthropic" alt="Built for Claude Code"></a>
-  <a href="https://www.buymeacoffee.com/donchitos3"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20this%20project-FFDD00?logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee"></a>
-  <a href="https://github.com/sponsors/Donchitos"><img src="https://img.shields.io/badge/GitHub%20Sponsors-Support%20this%20project-ea4aaa?logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
 </p>
 
 ---
@@ -118,7 +116,7 @@ Hooks fail gracefully if optional tools are missing — you just lose validation
 
 1. **Clone or use as template**:
    ```bash
-   git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git my-game
+   git clone https://github.com/fnjlabs-arch/Claude-Code-Game-Studios.git my-game
    cd my-game
    ```
 
@@ -248,7 +246,7 @@ studio-tests/                       # QA for the skills and agents themselves �
 
 ### Testing your customizations
 
-Claude Code Game Studios is a template you are meant to edit. `studio-tests/` is how
+SadSha Game Studio is a template you are meant to edit. `studio-tests/` is how
 you check that an edited or newly written skill still holds up — a catalog of all
 75 skills and 49 agents, per-category quality rubrics, behavioral specs, and
 templates for writing specs of your own.
@@ -498,29 +496,25 @@ Primary development on **Windows 10** with Git Bash. The hooks and scripts are a
 
 ## Community
 
-- **Discussions** — [GitHub Discussions](https://github.com/Donchitos/Claude-Code-Game-Studios/discussions) for questions, ideas, and showcasing what you've built
-- **Issues** — [Bug reports and feature requests](https://github.com/Donchitos/Claude-Code-Game-Studios/issues)
+- **Discussions** — [GitHub Discussions](https://github.com/fnjlabs-arch/Claude-Code-Game-Studios/discussions) for questions, ideas, and showcasing what you've built
+- **Issues** — [Bug reports and feature requests](https://github.com/fnjlabs-arch/Claude-Code-Game-Studios/issues)
 
 ---
 
 ## Supporting This Project
 
-Claude Code Game Studios is free and open source. If it saves you time or helps you ship your game, consider supporting continued development:
+SadSha Game Studio is free and open source. If it saves you time or helps you ship your game, consider supporting continued development:
 
 <p>
-  <a href="https://www.buymeacoffee.com/donchitos3"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
   &nbsp;
-  <a href="https://github.com/sponsors/Donchitos"><img src="https://img.shields.io/badge/GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors"></a>
 </p>
 
-- **[Buy Me a Coffee](https://www.buymeacoffee.com/donchitos3)** — one-time support
-- **[GitHub Sponsors](https://github.com/sponsors/Donchitos)** — recurring support through GitHub
 
 Sponsorships help fund time spent maintaining skills, adding new agents, keeping up with Claude Code and engine API changes, and responding to community issues.
 
 ---
 
-*Built for Claude Code. Maintained and extended — contributions welcome via [GitHub Discussions](https://github.com/Donchitos/Claude-Code-Game-Studios/discussions).*
+*Built for Claude Code. Maintained and extended — contributions welcome via [GitHub Discussions](https://github.com/fnjlabs-arch/Claude-Code-Game-Studios/discussions).*
 
 ## License
 

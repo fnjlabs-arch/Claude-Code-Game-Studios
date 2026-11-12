@@ -146,19 +146,19 @@ Coordinate multiple agents on a single feature area:
 
 ## Overlap with Claude Code's bundled skills
 
-Claude Code ships its own skills, and one name collides with Claude Code Game Studios'.
+Claude Code ships its own skills, and one name collides with SadSha Game Studio'.
 
 | You type | You get | Use it for |
 |---------|---------|-----------|
-| `/code-review` | **Claude Code Game Studios'** — project skills take the bare name | Architectural review against this project's coding standards, SOLID, testability and the control manifest. Knows about ADRs, stories and `docs/architecture/`. |
-| `/review` | **Claude Code's bundled** review — the alias of its `/code-review`, which Claude Code Game Studios' skill shadows | Reviewing a pull request or a plain diff for correctness bugs, with no knowledge of Claude Code Game Studios' design documents or gates. |
+| `/code-review` | **SadSha Game Studio'** — project skills take the bare name | Architectural review against this project's coding standards, SOLID, testability and the control manifest. Knows about ADRs, stories and `docs/architecture/`. |
+| `/review` | **Claude Code's bundled** review — the alias of its `/code-review`, which SadSha Game Studio' skill shadows | Reviewing a pull request or a plain diff for correctness bugs, with no knowledge of SadSha Game Studio' design documents or gates. |
 
-Both are useful; they answer different questions. Reach for the Claude Code Game Studios one during
+Both are useful; they answer different questions. Reach for the SadSha Game Studio one during
 `/dev-story` and before `/story-done`, because it checks the things the gates
 later check. Reach for the bundled one when you want a general review of a diff
 that has nothing to do with a story.
 
-Claude Code Game Studios does **not** turn the bundled skills off. `disableBundledSkills` would
+SadSha Game Studio does **not** turn the bundled skills off. `disableBundledSkills` would
 remove all of them, including `/debug`, `/security-review` and `/simplify`,
 which are worth keeping. If you want a bundled skill hidden, use
 `skillOverrides` in your own `.claude/settings.local.json` rather than disabling

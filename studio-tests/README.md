@@ -1,9 +1,9 @@
 # Studio Tests
 
-Quality assurance infrastructure for the **Claude Code Game Studios** framework.
+Quality assurance infrastructure for the **SadSha Game Studio** framework.
 Tests the skills and agents themselves — not any game built with them.
 
-**This ships as part of the template, and it is meant to.** Claude Code Game Studios is a template
+**This ships as part of the template, and it is meant to.** SadSha Game Studio is a template
 you are expected to customize — edit a skill, add your own, retune an agent. This
 folder is how you check that what you changed still holds up: `catalog.yaml`
 tracks all 75 skills and 49 agents, `quality-rubric.md` defines per-category

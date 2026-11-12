@@ -62,7 +62,7 @@ also prints its `0` or `1`. Run the call exactly as shown: do not `source` the
 file, wrap it in `cd ... &&` or append `; echo $?`. This skill pre-approves the
 plain form only, and a compound command asks the user every time.
 
-If `.claude/hooks/yaml-helper.sh` is missing, this is not a Claude Code Game Studios project.
+If `.claude/hooks/yaml-helper.sh` is missing, this is not a SadSha Game Studio project.
 Report the error and exit.
 
 ## Phase 1b: Reserved-setting detection
@@ -314,7 +314,7 @@ When the effective value is empty (key not set anywhere), print just:
 
 1b. **Known-key check**: run, from the project root as in Phase 1,
    `bash .claude/scripts/config-set.sh <key> <value> --dry-run` and read its
-   `known` row. If it says `yes`, proceed. If it says `no`, nothing in Claude Code Game Studios reads
+   `known` row. If it says `yes`, proceed. If it says `no`, nothing in SadSha Game Studio reads
    that key, so writing it changes nothing; it is most often a typo. Do not
    write yet: say so, and ask with the question tool, with the options
    `Use <nearest> instead` (only when the row ends `nearest: <key>`),

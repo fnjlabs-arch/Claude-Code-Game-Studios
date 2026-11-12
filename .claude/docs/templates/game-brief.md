@@ -67,7 +67,7 @@ thinking and cuts ceremony), and lean/agile GDD practice.
 - [ ]
 
 ## Your systems
-<!-- Every system the person named (combat, a shop, crafting, day and night...), one a line in their words, each with one of three marks: `in the slice` (built for real in the first build), `thin stand-in` (there and wired to the rest, at its simplest) or `later` (not built yet; Out of scope has it with its step). Left out when they named no system. The line format is fixed, so the step that plans stories can read it in order: `- <system> · in the slice` | `- <system> · thin stand-in` | `- <system> · later`, then *(guessed)* when Claude Code Game Studios chose the mark. -->
+<!-- Every system the person named (combat, a shop, crafting, day and night...), one a line in their words, each with one of three marks: `in the slice` (built for real in the first build), `thin stand-in` (there and wired to the rest, at its simplest) or `later` (not built yet; Out of scope has it with its step). Left out when they named no system. The line format is fixed, so the step that plans stories can read it in order: `- <system> · in the slice` | `- <system> · thin stand-in` | `- <system> · later`, then *(guessed)* when SadSha Game Studio chose the mark. -->
 -
 
 ## Keep

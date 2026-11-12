@@ -181,7 +181,7 @@ Fixture defaults.
 **Fixture:**
 - Fresh project as in Case 1
 - `.git/config` has `[remote "origin"]` with url
-  `https://github.com/Donchitos/Claude-Code-Game-Studios.git`
+  `https://github.com/fnjlabs-arch/Claude-Code-Game-Studios.git`
 - The user picks `B) An idea, or none yet` with the hint "a small weekend puzzler", then `Save them`
 
 **Input:** `/start`
@@ -191,7 +191,7 @@ Fixture defaults.
 2. Path B names `/brainstorm a small weekend puzzler` as the immediate step
 3. The card infers rigor `minimal` from "weekend" and "small"
 4. After the Phase 6 path, the skill adds once that `origin` still points at the
-   Claude Code Game Studios template repo, suggests `git remote rename origin template` then
+   SadSha Game Studio template repo, suggests `git remote rename origin template` then
    `git remote add origin <your repo URL>`, and says to skip `UPGRADING.md`'s own
    `git remote add template` step since that remote now exists
 5. The commands are suggested only; no git command is run

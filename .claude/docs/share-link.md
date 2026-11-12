@@ -34,7 +34,7 @@ Ask which, in one plain question. With no answer, offer the itch.io page.
 the zip and checks itch.io's limits: at most 1,000 files, 500 MB in all, 200 MB for one file.
 An `over` row or `not_assessed` stops here: say what it found.
 
-**The person does these by hand.** Claude Code Game Studios never makes an account, never logs in and never sees a
+**The person does these by hand.** SadSha Game Studio never makes an account, never logs in and never sees a
 password or key.
 
 1. Make an itch.io account at itch.io, if they don't have one.
@@ -50,7 +50,7 @@ password or key.
    owners and by anyone with that link. (Restricted works too, with download keys or a
    password.) Never Public in this step.
 
-**With butler, Claude Code Game Studios may upload, after the person says yes.** First show the dry run, which lists
+**With butler, SadSha Game Studio may upload, after the person says yes.** First show the dry run, which lists
 the files it would send and sends nothing:
 `butler push --dry-run <the build folder> <user>/<game>:html5`. Then ask: "Upload this build to
 your itch.io page <user>/<game>? It stays a hidden draft." Only on a clear yes run

@@ -30,7 +30,7 @@ line, its stand-in is the one for that genre; this table names the level.
 
 ## VR
 
-`Platform: VR: Claude Code Game Studios has no route for VR: no checks and no proof that a VR
+`Platform: VR: SadSha Game Studio has no route for VR: no checks and no proof that a VR
 game works. Build it makes a flat-screen game for the browser instead.`
 
 It is built flat only on Build it with this line on the card; Change something asks what they
@@ -46,7 +46,7 @@ A tap or a swipe they name is built; the self-check still plays with keys.
 ## A console
 
 `Platform: console: a console port goes through a licensed partner or a porting house (the
-console makers' kits are private, so Claude Code Game Studios cannot build or check one); this
+console makers' kits are private, so SadSha Game Studio cannot build or check one); this
 web game is where it starts.`
 
 Their goal stays as they said it; the web game is built as for any other.

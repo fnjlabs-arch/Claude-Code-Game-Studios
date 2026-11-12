@@ -29,7 +29,7 @@ It writes nothing. Its rows say what it found:
   MB.
 - **`kind export <what>`:** made by an engine or tool (Godot, Unity, Construct, Twine...): section 8.
 - **`kind web_project`:** it has a `package.json`, so it has its own build. Say: "This is a web
-  project with its own build. `/setup-engine web` sets Claude Code Game Studios up around it as it is." Stop.
+  project with its own build. `/setup-engine web` sets SadSha Game Studio up around it as it is." Stop.
 - **`kind not_a_game`:** say what is missing in plain words ("I can't find a game in it: the page
   has no script") and ask for the right file. Stop. When the `refused` row names the folder's page
   (a game saved as one page with its own name), ask whether to bring that page in; on a yes, this
@@ -159,7 +159,7 @@ remake instead:
 - **Then** it is a one-shot after its handover: each change is One-shot 4's, a checkpoint each.
   Skip the play request in One-shot 3 section 3: they played it before they brought it.
 - **Going back to the start:** `baseline/<name>` is how it came in (One-shot 4, Going back).
-- **Claude Code Game Studios' game-state hook** (`window.game`) is not added by the door: it is a change the person
+- **SadSha Game Studio' game-state hook** (`window.game`) is not added by the door: it is a change the person
   can ask for, like any other.
 - **Growing it** works as for any one-shot (One-shot 5).
 - The door writes nothing to `project.yaml`.

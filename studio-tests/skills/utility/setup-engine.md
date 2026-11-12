@@ -287,11 +287,11 @@ Fixture defaults.
 ### Case 9: An existing web project — recorded as it is, no game file changed
 
 **Fixture:**
-- A git repository holding a web game committed before Claude Code Game Studios: `package.json`
+- A git repository holding a web game committed before SadSha Game Studio: `package.json`
   (scripts `dev`, `build` = `webpack --config webpack/config.prod.js`, `test` =
   `jest`), `package-lock.json`, `src/`, `tests/score.test.js`, webpack and Jest in
   `devDependencies`, Phaser in `dependencies`, no `tsconfig.json`, no
-  `window.game`; Claude Code Game Studios' files added in a later commit; no `node_modules/`
+  `window.game`; SadSha Game Studio' files added in a later commit; no `node_modules/`
 - Variant A — `package.json` has `"workspaces": ["packages/*"]`
 
 **Input:** `/setup-engine web`

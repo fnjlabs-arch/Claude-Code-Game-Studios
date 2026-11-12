@@ -30,7 +30,7 @@ else
 fi
 [ -n "$CCGS_ROOT" ] && cd "$CCGS_ROOT" 2>/dev/null || true
 
-# Claude Code Game Studios — Status Line
+# SadSha Game Studio — Status Line
 # Receives JSON on stdin, outputs a single-line status.
 #
 # Segments: ctx% | model | production stage [| Epic > Feature > Task]

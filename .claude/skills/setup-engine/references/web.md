@@ -25,7 +25,7 @@ language and tests stay its own. W1 replaces W2 to W6 for it (W7, and Sections
 
 1. **Read it:** `bash .claude/scripts/web-detect.sh`. It reads files only.
 2. **`workspaces yes`:** stop, writing nothing: "This is a monorepo (<where>).
-   Claude Code Game Studios does not cover workspaces yet: open one game's own folder as the project
+   SadSha Game Studio does not cover workspaces yet: open one game's own folder as the project
    and run `/setup-engine web` there."
 3. **Node:** `node --version`. W2's range is the scaffold's tools', not this
    project's: do not apply it. No Node: record anyway, and say the build and
@@ -83,7 +83,7 @@ language and tests stay its own. W1 replaces W2 to W6 for it (W7, and Sections
    --file-access`. `--file-access` lets the page load its module scripts and
    its own images and data, as it does from a server. Read the image and say
    what is on screen, with any `uncaught` lines (the game's own errors, which
-   Claude Code Game Studios reports and does not fix here). A blank page whose console says a file
+   SadSha Game Studio reports and does not fix here). A blank page whose console says a file
    from the root (`/assets/…`, Vite's default `base`) did not load is
    `NOT ASSESSED — the build asks for files from the server's root, which a
    page opened from disk cannot reach`; never start `commands.run` and never
@@ -100,7 +100,7 @@ language and tests stay its own. W1 replaces W2 to W6 for it (W7, and Sections
     loop can be stepped (a library that keeps its own time, such as Phaser or
     PixiJS, leaves replays NOT ASSESSED). Build, run the tests, show the diff,
     and ask before committing it on its own
-    (`feat: the game-state hook for Claude Code Game Studios' checks`).
+    (`feat: the game-state hook for SadSha Game Studio' checks`).
 
 ## W2. Node, the starter and the versions (Section 3)
 
